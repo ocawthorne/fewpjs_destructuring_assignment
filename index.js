@@ -28,8 +28,20 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+animalArr = farmAnimals.split(" ")
+const moo = animalArr[0]
+const neigh = animalArr[1]
+const baa = animalArr[2]
+const oink = animalArr[3]
+const cluck = animalArr[4]
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
+farmAnimals = [
+  {name: "Bessie"},
+  {name: "Dolly"},
+  {name: "Babe"},
+  {name: "Little"}
+]
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
 
